@@ -1,0 +1,25 @@
+.materials-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .materials-table th,
+  .materials-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .materials-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .materials-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .materials-table tr:hover {
+    background-color: #f1f1f1;
+  }
